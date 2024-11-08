@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyStore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyStore.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyStore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                            <!-- Тільки для адміністратора -->
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">Адміністрування</a>
+                                </li>
+                            }
+                        </ul>
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Бокове меню для адміністратора -->
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <aside class="col-12 col-md-3 col-lg-2 mb-3">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Home" asp-action="Index" id="v-pills-addnewproduct-tab" role="tab" aria-controls="v-pills-addnewproduct">
+                                Головна
+                            </a>
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Settings" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Settings" asp-action="Index" id="v-pills-settings-tab" role="tab" aria-controls="v-pills-settings">
+                                Замовлення
+                            </a>
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Product" && ViewContext.RouteData.Values["action"]?.ToString() == "GetAllProduct" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Product" asp-action="GetAllProduct" id="v-pills-getallproduct-tab" role="tab" aria-controls="v-pills-getallproduct">
+                                Товар
+                            </a>
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Account" && ViewContext.RouteData.Values["action"]?.ToString() == "GetAllAccount" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Account" asp-action="GetAllAccount" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile">
+                                Користувачі
+                            </a>
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Schedule" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Schedule" asp-action="Index" id="v-pills-messages-tab" role="tab" aria-controls="v-pills-messages">
+                                Графіки
+                            </a>
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Settings" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
+                               asp-area="Admin" asp-controller="Settings" asp-action="Index" id="v-pills-settings-tab" role="tab" aria-controls="v-pills-settings">
+                                Налаштування
+                            </a>
+                        </div>
+                    </aside>
+                }
+                <!-- Основний контент -->
+                <main class="col-12 col-md-9 col-lg-10" role="main">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer class="footer text-muted">
+        <div class="container-fluid">
+            © 2024 - MyStore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

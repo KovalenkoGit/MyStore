@@ -1,0 +1,70 @@
+﻿@model MyStore.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Product detail " + Model.Name;
+}
+<div class="container">
+    <h3 class="display-4">Детальна інформація</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    @for (int i = 0; i < Model.Gallery.Count; i++)
+                    {
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="@i" class="@(i==0 ? "active" : "") aria-current="true" aria-label="Slide 1"></button>
+                    }
+                </div>
+                <div class="carousel-inner">
+                    @for (int i = 0; i < Model.Gallery.Count; i++)
+                    {
+                        <div class="@(i==0 ? "carousel-item active" : "carousel-item")">
+                            <img src="@Model.Gallery[i].ImageURL" class="d-block w-100" alt="@Model.Gallery[i].Name">
+                        </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>@Model.Name</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-primary">
+                    <span class="label label-primary">Ціна:</span>
+                    <span class="monospaced">@Model.Price</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="description">
+                        @Model.Description
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-outline-primary">
+                        Більше
+                    </button>
+                </div>
+            </div>
+            <hr />
+            <ul class="list-group">
+                <li class="list-group-item"><span class="font-weight-bold">Категорія - </span>@Model.Category</li>
+@*                 <li class="list-group-item"><span class="font-weight-bold">Кількість сторінок - </span>@Model.TotalPages</li>
+                <li class="list-group-item"><span class="font-weight-bold">Мова - </span>@Model.Language.Name</li> *@
+            </ul>
+        </div>
+    </div>
+
+</div>

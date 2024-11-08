@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\MyStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|d:\\github\\mystore\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|solutionrelative:repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|d:\\github\\mystore\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|solutionrelative:areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|d:\\github\\mystore\\areas\\admin\\views\\account\\getallaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|solutionrelative:areas\\admin\\views\\account\\getallaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|d:\\github\\mystore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90599A67-5247-4453-92A3-AFE130C1D3ED}|MyStore.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 63,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\GitHub\\MyStore\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\GitHub\\MyStore\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:53:04.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHub\\MyStore\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHub\\MyStore\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:10:44.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\MyStore\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AccountRepository.cs",
+              "ToolTip": "D:\\GitHub\\MyStore\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "Repository\\AccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:10:44.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllAccount.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\MyStore\\Areas\\Admin\\Views\\Account\\GetAllAccount.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Account\\GetAllAccount.cshtml",
+              "ToolTip": "D:\\GitHub\\MyStore\\Areas\\Admin\\Views\\Account\\GetAllAccount.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Account\\GetAllAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T20:57:49.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

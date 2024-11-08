@@ -1,0 +1,33 @@
+﻿ @using Microsoft.AspNetCore.Identity
+@model List<ApplicationUser>
+
+<h2 class="text-center mb-5>">Керування користувачами</h2>
+
+<br />
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Ім'я</th>
+			<th>Прізвище</th>
+			<th>email</th>
+			<th>Роль</th>
+			<th class="text-center">Редагування/Перегляд</th>
+		</tr>
+	</thead>
+	<tbody>
+ 		@foreach (var user in Model)
+		{
+			<tr>
+				<td>@user.FirstName</td>
+				<td>@user.LastName</td>
+				<td>@user.Email</td>
+				<td>@string.Join(", ", user.Roles)</td>
+				<td style="white-space:nowrap">
+					<a class="btn btn-success btn-sm" asp-controller="Account" asp-action="GetUser" asp-route-userId="@user.Id">Детальніше</a>
+					<a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Account" asp-action="EditUser" asp-route-userId="@user.Id">Редагувати</a>
+				@* 	<a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Account" asp-action="DeleteUser" asp-route-userId="@user.Id" onclick="return confirm('Ви впевнені, що хочете видалити цього користувача?')">Видалити</a>*@				</td> 
+			</tr>
+		} 
+	</tbody>
+</table>

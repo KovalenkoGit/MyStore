@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="row mb-5">
+	<div class="col">
+		<a class="btn btn-primary" asp-controller="Product" asp-action="Create">Новий товар</a>
+	</div>
+	<div class="col">
+	</div>
+</div>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Category</th>
+			<th>Price</th>
+			<th>Cover</th>
+		</tr>
+	</thead>
+
+	<tbody> *@
+		@* 		@foreach (var product in Model)
+		{
+		<tr>
+		<td>@product.ProductId</td>
+		<td>@product.Name</td>
+		<td>@(product.Price)$</td>
+		<td>@product.DateAdded.ToString("dd/mm/yyyy")</td>
+		<td><img src="/product/cover/@product.CoverImageUrl" width="100"/></td>
+		<td style="white-space:nowrap">
+		<a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Edit"
+		asp-route-id="@product.ProductId">Редагувати</a>
+		<a class="btn btn-danger btn-sm" asp-controller="Products" asp-action="Delet"
+		asp-route-id="@product.ProductId">Видалити</a>
+		</td>
+		</tr>
+
+		} *@
+@* 	</tbody>
+</table>
+ *@

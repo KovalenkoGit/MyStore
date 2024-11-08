@@ -1,0 +1,17 @@
+﻿@model ProductModel
+
+<div class="card mb-3 shadow-sm">
+    <img src="@(string.IsNullOrEmpty(Model.CoverImageUrl) ? "/images/nophoto.png" : Model.CoverImageUrl)" class="card-img-top img-fluid" style="width: 100%; height: 200px; object-fit: contain;" />
+    <div class="card-body">
+        <h4 class="card-title">@(string.IsNullOrEmpty(Model.Name) ? "Назва відсутня" : Model.Name)</h4>
+        <p class="card-text">@(string.IsNullOrEmpty(Model.Description) ? "Опис відсутній" : Model.Description)</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <a asp-route="ProductDetailsRoute" asp-route-id="@Model.ProductId"
+                   class="btn btn-sm btn-outline-secondary">Детально</a>
+            </div>
+            <small class="text-muted">@((Model.Price == 0) ? "Ціна відсутня" : Model.Price.ToString())</small>
+
+        </div>
+    </div>
+</div>

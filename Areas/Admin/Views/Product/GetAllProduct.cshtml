@@ -1,0 +1,74 @@
+﻿@{
+	ViewData["Title"] = "Весь товар";
+}
+@model IEnumerable<MyStore.Models.ProductModel>
+
+
+<h2 class="text-center mb-5>">Керування товаром</h2>
+    @if (ViewBag.IsSuccess == true)
+    {
+	@if (ViewBag.ActionType == "add" || ViewBag.ActionType == "update")
+	{
+		var actionText = ViewBag.ActionType == "update" ? "Оновлено" : "Додано";
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+			<strong>@actionText. </strong>
+			<br />
+			Детальніше <a asp-controller="Product" asp-action="GetProduct" asp-route-productId="@ViewBag.ProductId"> тут</a>
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		</div>
+	}
+	else
+	{
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+			<strong>Видалено. (Код товару @ViewBag.ProductId") </strong>
+		</div>
+	}
+}
+<div class="row mb-3">
+	<div class="col">
+		<a class="btn btn-primary" asp-area="Admin" asp-controller="Product" asp-action="AddNewProduct">Новий товар </a>
+	</div>
+	<div class="col">
+
+	</div>
+</div>
+
+ <table class="table">
+	<thead>
+		<tr>
+			<th>Код</th>
+			<th>Назва</th>
+			<th>Категорія</th>
+			<th>Ціна</th>
+			<th>Додано</th>
+			<th>Редаговано</th>
+			<th>Фото</th>
+			<th class="text-center">Редагування/Перегляд</th>
+		</tr>
+	</thead>
+	<tbody>
+ 		@foreach (var product in Model)
+		{
+			<tr>
+				<td>@product.ProductId.ToString().Substring(0, 5).ToUpper()</td>
+				<td>@product.Name</td>
+				<td>@product.Category</td>
+				<td>@(product.Price)$</td> 
+				<td>@product.DateAdded.ToString("dd/MM/yyyy")</td>
+				<td>
+					@{
+						// Конвертуємо UTC час у локальний
+						DateTime localTime = TimeZoneInfo.ConvertTimeFromUtc(product.DateUpdated, TimeZoneInfo.Local);
+					}
+					@localTime.ToString("dd/MM/yyyy HH:mm:ss")
+				</td>
+				<td><img src="@(string.IsNullOrEmpty(product.CoverImageUrl) ? "/images/nophoto.png" : product.CoverImageUrl)" class="card-img-top img-fluid" style="width: 50%; height:100px; object-fit: contain;" /></td>
+				<td style="white-space:nowrap">
+					<a class="btn btn-success btn-sm" asp-controller="Product" asp-action="GetProduct" asp-route-productId="@product.ProductId">Детальніше</a>
+					<a class="btn btn-primary btn-sm" asp-area="Admin" asp-controller="Product" asp-action="EditProduct" asp-route-productId="@product.ProductId">Редагувати</a>
+					<a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Product" asp-action="DeleteProduct" asp-route-productId="@product.ProductId" onclick="return confirm('Ви впевнені, що хочете видалити цей товар?')">Видалити</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

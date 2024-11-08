@@ -1,0 +1,717 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\MyStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyStore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\images\\default-cover.jpg",
+      "PackagePath": "staticwebassets\\images\\default-cover.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\images\\default-cover.png",
+      "PackagePath": "staticwebassets\\images\\default-cover.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\images\\nophoto.png",
+      "PackagePath": "staticwebassets\\images\\nophoto.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\05aec936-5f72-47ce-bd2d-e1a0bd00ac2b-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\05aec936-5f72-47ce-bd2d-e1a0bd00ac2b-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\1768f87a-fb48-48df-ba5c-d480e7fea56b-photo_2024-11-05_14-01-01.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\1768f87a-fb48-48df-ba5c-d480e7fea56b-photo_2024-11-05_14-01-01.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\19098437-1a5c-42e5-898e-71e45e5ee4d1-1.png",
+      "PackagePath": "staticwebassets\\product\\cover\\19098437-1a5c-42e5-898e-71e45e5ee4d1-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\248d5d02-de4c-48d0-9662-626ce27ce2f4-1.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\248d5d02-de4c-48d0-9662-626ce27ce2f4-1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\258934a5-8289-4ca8-802e-c0130bcf2768-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\258934a5-8289-4ca8-802e-c0130bcf2768-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\2acdc75e-e48c-4dea-bcac-2d1846dc9a28-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\2acdc75e-e48c-4dea-bcac-2d1846dc9a28-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\35951045-1b25-4519-8d77-661ebe12536a-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\35951045-1b25-4519-8d77-661ebe12536a-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\3be7304d-354c-498f-8641-4e20b93fa38e-photo_2.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\3be7304d-354c-498f-8641-4e20b93fa38e-photo_2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\41562748-851f-4350-943c-f24636c3e235-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\41562748-851f-4350-943c-f24636c3e235-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\42f783b0-1e80-4082-9652-e7d710eadb6b-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\42f783b0-1e80-4082-9652-e7d710eadb6b-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\48bfab61-f0df-4652-94a5-6020e2d0a68d-1.png",
+      "PackagePath": "staticwebassets\\product\\cover\\48bfab61-f0df-4652-94a5-6020e2d0a68d-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\5d85ed4d-01cd-4d82-b686-e1cf491a3ea7-photo_2024-06-07_17-02-47.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\5d85ed4d-01cd-4d82-b686-e1cf491a3ea7-photo_2024-06-07_17-02-47.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\61e808f2-d075-486d-b1fb-fd9727fc3dc1-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\61e808f2-d075-486d-b1fb-fd9727fc3dc1-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\67041d59-ef36-4cfb-a1b6-5d136cdb3cb5-1.png",
+      "PackagePath": "staticwebassets\\product\\cover\\67041d59-ef36-4cfb-a1b6-5d136cdb3cb5-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\6e245e95-6a89-4ff1-9216-93414f2fc52d-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\6e245e95-6a89-4ff1-9216-93414f2fc52d-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\706ad21e-7b06-460f-9a46-8c19081796dd-photo_2024-08-02_09-53-13.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\706ad21e-7b06-460f-9a46-8c19081796dd-photo_2024-08-02_09-53-13.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\88c27d39-33cd-407d-8cf9-15e0bde44f1f-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\88c27d39-33cd-407d-8cf9-15e0bde44f1f-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\92f9603b-45ad-44c9-ad41-2678802d89e7-default-cover.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\92f9603b-45ad-44c9-ad41-2678802d89e7-default-cover.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\9c4e5b1d-c9b8-4862-bf01-427c109f524c-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\9c4e5b1d-c9b8-4862-bf01-427c109f524c-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\abb94e44-1cd5-4cdd-89df-fc270423d142-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\abb94e44-1cd5-4cdd-89df-fc270423d142-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\b0f57deb-e90e-401a-b36b-fd3d56804480-1.png",
+      "PackagePath": "staticwebassets\\product\\cover\\b0f57deb-e90e-401a-b36b-fd3d56804480-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\b13a94ab-bed1-4d5b-a4aa-4ccc2bdcfd4d-photo_2024-11-05_14-01-01.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\b13a94ab-bed1-4d5b-a4aa-4ccc2bdcfd4d-photo_2024-11-05_14-01-01.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\c4b0ebb8-7f03-41cb-bb7f-235658e53635-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\c4b0ebb8-7f03-41cb-bb7f-235658e53635-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\ca0464f4-8914-4bdb-91ad-1ba141cdf1e6-2.png",
+      "PackagePath": "staticwebassets\\product\\cover\\ca0464f4-8914-4bdb-91ad-1ba141cdf1e6-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\caa6d7dc-99d2-4888-8230-46b73ae1019f-1.png",
+      "PackagePath": "staticwebassets\\product\\cover\\caa6d7dc-99d2-4888-8230-46b73ae1019f-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\cf687f1c-86a4-41f4-844a-ccf313a1dffd-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\cf687f1c-86a4-41f4-844a-ccf313a1dffd-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\dd1cb280-c33d-474a-99b4-27714f84c9c8-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\dd1cb280-c33d-474a-99b4-27714f84c9c8-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\dd56abf1-7f7e-45e9-93ec-812e55a8c933-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\dd56abf1-7f7e-45e9-93ec-812e55a8c933-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\efad86b6-45a7-41f5-a051-857087cf42a5-photo_2024-06-07_17-02-47.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\efad86b6-45a7-41f5-a051-857087cf42a5-photo_2024-06-07_17-02-47.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\fd665eef-3cb4-4414-9db2-1ca66623588e-photo_2.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\fd665eef-3cb4-4414-9db2-1ca66623588e-photo_2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\fd699ec6-cfd3-41a2-9bbf-e881d270927d-3.png",
+      "PackagePath": "staticwebassets\\product\\cover\\fd699ec6-cfd3-41a2-9bbf-e881d270927d-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\cover\\fdc6fcdd-70cb-4694-a3bb-bbfc0aa7943c-photo_2024-08-02_09-53-13.jpg",
+      "PackagePath": "staticwebassets\\product\\cover\\fdc6fcdd-70cb-4694-a3bb-bbfc0aa7943c-photo_2024-08-02_09-53-13.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\03d3534a-dcb0-4a9c-8a67-6d03b9bfadb7-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\03d3534a-dcb0-4a9c-8a67-6d03b9bfadb7-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\0821ca8e-74cf-4211-bc14-34a4d0d2d57f-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\0821ca8e-74cf-4211-bc14-34a4d0d2d57f-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\0ab3d067-26f5-464a-9869-5223f0f86124-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\0ab3d067-26f5-464a-9869-5223f0f86124-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\0b990221-9091-4e14-add3-438f36227354-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\0b990221-9091-4e14-add3-438f36227354-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\0c5a6748-a589-4811-a36c-bd1cd58f425c-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\0c5a6748-a589-4811-a36c-bd1cd58f425c-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\1131d294-60c6-4de6-9f87-d7fa8a9efd5b-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\1131d294-60c6-4de6-9f87-d7fa8a9efd5b-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\1c9050d8-8c4b-4416-af0e-f55d50bad563-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\1c9050d8-8c4b-4416-af0e-f55d50bad563-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\20fda53e-3a4f-46d8-906a-1f4ff8ea16be-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\20fda53e-3a4f-46d8-906a-1f4ff8ea16be-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\2379e7ee-dd85-466c-8d81-8a0b67da0202-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\2379e7ee-dd85-466c-8d81-8a0b67da0202-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\262dbac3-90b5-471c-9001-cac2b5c4505e-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\262dbac3-90b5-471c-9001-cac2b5c4505e-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\2a7ff96e-c3c5-4b57-9c78-e11b2bc9fb4c-photo_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\2a7ff96e-c3c5-4b57-9c78-e11b2bc9fb4c-photo_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\3447ba2a-273a-4b6b-acaa-823f86905545-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\3447ba2a-273a-4b6b-acaa-823f86905545-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\3919e1cf-02a1-4b62-af57-69ca8d061b8f-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\3919e1cf-02a1-4b62-af57-69ca8d061b8f-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\394333ea-dde0-4a3d-a123-aa4ccde884d2-default-cover.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\394333ea-dde0-4a3d-a123-aa4ccde884d2-default-cover.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\39aaa8d3-6c0a-4277-a8ce-3513fc0c0087-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\39aaa8d3-6c0a-4277-a8ce-3513fc0c0087-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\39ff80f5-65ef-4475-be26-46ebb5b58e41-photo_2.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\39ff80f5-65ef-4475-be26-46ebb5b58e41-photo_2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\3ce05fc6-a040-4bc5-828a-2cfdd500e09e-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\3ce05fc6-a040-4bc5-828a-2cfdd500e09e-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\3fb67d17-31cb-4544-bb2c-059accad63c6-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\3fb67d17-31cb-4544-bb2c-059accad63c6-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\4276478a-466d-4877-9e69-ac34e1f870bf-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\4276478a-466d-4877-9e69-ac34e1f870bf-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\43a145d0-ba95-41c0-8354-76dd781bedfe-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\43a145d0-ba95-41c0-8354-76dd781bedfe-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\45d0daee-5448-4c44-b10f-c4a414c4cde8-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\45d0daee-5448-4c44-b10f-c4a414c4cde8-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\49883e19-d339-40d9-9e47-3a575102baa7-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\49883e19-d339-40d9-9e47-3a575102baa7-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\49a07b89-562c-4a1f-9b01-3c88669f69fc-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\49a07b89-562c-4a1f-9b01-3c88669f69fc-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\4efee3b9-08fb-4eb1-a206-32f926a622de-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\4efee3b9-08fb-4eb1-a206-32f926a622de-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\50cf7309-4829-4b95-a4fc-ea936524b65e-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\50cf7309-4829-4b95-a4fc-ea936524b65e-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\541be0fb-8d4c-43d2-bbfd-a42460d52eda-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\541be0fb-8d4c-43d2-bbfd-a42460d52eda-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\560145fc-156a-4151-a6a7-2244466522cc-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\560145fc-156a-4151-a6a7-2244466522cc-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\635f6058-970a-4bc3-967f-cf3f8c36a690-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\635f6058-970a-4bc3-967f-cf3f8c36a690-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\64b2ac5e-ad2d-4a2b-b739-bf1130d62408-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\64b2ac5e-ad2d-4a2b-b739-bf1130d62408-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\684814a7-fc91-4c57-9a99-54fc413943d5-4.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\684814a7-fc91-4c57-9a99-54fc413943d5-4.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\6b17edd3-78cf-4ab3-9f21-735ed3db5809-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\6b17edd3-78cf-4ab3-9f21-735ed3db5809-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\77274283-f2f2-4ebf-93c2-b4f609b62d86-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\77274283-f2f2-4ebf-93c2-b4f609b62d86-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\777ea306-096d-4717-9293-1972cfc547cc-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\777ea306-096d-4717-9293-1972cfc547cc-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\7c30afd0-18ea-4463-b6ad-cd9d56affcc0-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\7c30afd0-18ea-4463-b6ad-cd9d56affcc0-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\7ff098a9-c389-414a-8fac-f3d56d5f42ca-photo_2024-11-05_14-01-01.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\7ff098a9-c389-414a-8fac-f3d56d5f42ca-photo_2024-11-05_14-01-01.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\83b468db-d351-4f85-bd37-696de0f91fb5-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\83b468db-d351-4f85-bd37-696de0f91fb5-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\8654db05-2bdf-443b-837e-78b8f9b80251-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\8654db05-2bdf-443b-837e-78b8f9b80251-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\8663ae61-1bea-4a24-8f14-27536825d872-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\8663ae61-1bea-4a24-8f14-27536825d872-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\8a7ccf26-536d-4030-bd31-736526b66361-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\8a7ccf26-536d-4030-bd31-736526b66361-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\963453a8-7b5a-4fd7-9c5b-7766f25ba23c-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\963453a8-7b5a-4fd7-9c5b-7766f25ba23c-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a02cadb9-7ca4-4bd6-ad01-5ef6dd46c772-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a02cadb9-7ca4-4bd6-ad01-5ef6dd46c772-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a2d212bf-120f-4dac-a4f8-33ae2ba1fb7a-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a2d212bf-120f-4dac-a4f8-33ae2ba1fb7a-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a40e7c67-e146-4fb0-b246-2f8f8a1e4db8-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a40e7c67-e146-4fb0-b246-2f8f8a1e4db8-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a466a790-dee6-4ae2-a1c2-f6d48a889aca-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a466a790-dee6-4ae2-a1c2-f6d48a889aca-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a4dc60fe-430e-46e3-bfbf-eec13a08a726-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a4dc60fe-430e-46e3-bfbf-eec13a08a726-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\a785b014-e240-4f58-afd8-e3a8401c6cbb-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\a785b014-e240-4f58-afd8-e3a8401c6cbb-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\acd8e4a3-e249-41d2-a128-b1c0671bf77b-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\acd8e4a3-e249-41d2-a128-b1c0671bf77b-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ae2f4cea-1cc2-4949-a1b3-bd083631b80c-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\ae2f4cea-1cc2-4949-a1b3-bd083631b80c-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\b1b5d2aa-0161-495f-a71d-35edcca0bbb1-default-cover.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\b1b5d2aa-0161-495f-a71d-35edcca0bbb1-default-cover.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\b2c72f6f-246e-4bbc-b817-27f13e746305-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\b2c72f6f-246e-4bbc-b817-27f13e746305-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\c6a57382-193b-4160-8829-c8778c799b01-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\c6a57382-193b-4160-8829-c8778c799b01-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\c89d6050-ff1c-47c5-b1aa-26672d8134ff-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\c89d6050-ff1c-47c5-b1aa-26672d8134ff-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\c9d91f64-66e7-4f32-a8bb-16a56b14157e-photo_2024-08-02_09-53-13.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\c9d91f64-66e7-4f32-a8bb-16a56b14157e-photo_2024-08-02_09-53-13.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\c9e67219-6f95-4a07-96b3-f546fcd60973-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\c9e67219-6f95-4a07-96b3-f546fcd60973-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\cb3bef9a-fe12-4f8f-88c2-38baddb9cfc2-photo_2.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\cb3bef9a-fe12-4f8f-88c2-38baddb9cfc2-photo_2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ccd16544-c899-4df8-a89e-3dce8ef7c218-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\ccd16544-c899-4df8-a89e-3dce8ef7c218-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\cd2ee13b-6cf9-4448-995e-f9fc3abbf26d-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\cd2ee13b-6cf9-4448-995e-f9fc3abbf26d-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\cdbe2158-6810-42a5-aad7-3c31b75e3886-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\cdbe2158-6810-42a5-aad7-3c31b75e3886-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ce449cc6-208a-4145-9b61-9d5f55582345-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\ce449cc6-208a-4145-9b61-9d5f55582345-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d0d4a5bf-4b3b-40b2-a99c-bd43cfa24585-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\d0d4a5bf-4b3b-40b2-a99c-bd43cfa24585-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d157a3ef-8026-4e2f-9d47-9d0d8c7277b0-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\d157a3ef-8026-4e2f-9d47-9d0d8c7277b0-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d61b4b0a-110d-473a-bc55-656d94aff2fc-photo_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\d61b4b0a-110d-473a-bc55-656d94aff2fc-photo_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d72c44d7-75f0-4b80-b0ad-fa49a79a1fcd-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\d72c44d7-75f0-4b80-b0ad-fa49a79a1fcd-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d741a09f-32f9-4820-976d-e832addc11c8-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\d741a09f-32f9-4820-976d-e832addc11c8-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d8ac307a-0f31-40a9-83ff-61bffdbdc633-photo_2024-06-07_17-02-47.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\d8ac307a-0f31-40a9-83ff-61bffdbdc633-photo_2024-06-07_17-02-47.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\d9c46817-934f-4bba-84bf-75fc7fdbb642-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\d9c46817-934f-4bba-84bf-75fc7fdbb642-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\da1a56b0-8409-4795-947d-49cab5f1ec75-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\da1a56b0-8409-4795-947d-49cab5f1ec75-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\e76ed384-4e69-441f-a4fd-ca6362568a98-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\e76ed384-4e69-441f-a4fd-ca6362568a98-1.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\e7f2a79e-74fb-4c6b-802e-5ea2cc9beccc-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\e7f2a79e-74fb-4c6b-802e-5ea2cc9beccc-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\e868b556-c25a-4685-9a9d-bb6446a9f3d3-samsung_1.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\e868b556-c25a-4685-9a9d-bb6446a9f3d3-samsung_1.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\e8afe107-8bb5-4cd4-8ee6-367df84a53d1-photo_2024-08-02_09-53-13.jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\e8afe107-8bb5-4cd4-8ee6-367df84a53d1-photo_2024-08-02_09-53-13.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ebecead4-8822-4cf1-b408-5e2066db4911-3.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\ebecead4-8822-4cf1-b408-5e2066db4911-3.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ecbf6940-d914-4bd5-9cd8-c6b207f2e8fe-photo_2024-08-02_09-53-13(1).jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\ecbf6940-d914-4bd5-9cd8-c6b207f2e8fe-photo_2024-08-02_09-53-13(1).jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\ef8fb021-3cb5-48ef-b248-32ec10f81899-photo_2024-08-02_09-53-13(1).jpg",
+      "PackagePath": "staticwebassets\\product\\gallery\\ef8fb021-3cb5-48ef-b248-32ec10f81899-photo_2024-08-02_09-53-13(1).jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\efe9e729-5aae-497c-a27e-0e1079380592-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\efe9e729-5aae-497c-a27e-0e1079380592-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\f2caaa48-56fe-4845-bc3c-a87a4ce32b9f-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\f2caaa48-56fe-4845-bc3c-a87a4ce32b9f-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\f4592401-3e8f-4024-b199-9a5d555c67e8-2.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\f4592401-3e8f-4024-b199-9a5d555c67e8-2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\MyStore\\wwwroot\\product\\gallery\\fb63c6df-11a0-4087-930e-593449e89466-1.png",
+      "PackagePath": "staticwebassets\\product\\gallery\\fb63c6df-11a0-4087-930e-593449e89466-1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyStore.props",
+      "PackagePath": "build\\MyStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyStore.props",
+      "PackagePath": "buildMultiTargeting\\MyStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyStore.props",
+      "PackagePath": "buildTransitive\\MyStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
